@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import ProfilePic from "/assets/images/kevinRushProfile.png";
+import ProfilePic from "/assets/images/mishanprofile.webp";
 import { delay, motion } from "framer-motion";
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -23,7 +23,7 @@ export const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 t0-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-700 bg-clip-text text-4xl font-bold tracking-tight text-transparent"
             >
               Full Stack Developer
             </motion.span>
@@ -38,13 +38,14 @@ export const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center">
+          <div className="flex justify-center ">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={ProfilePic}
               alt="Mishan raj shah"
+              className="rounded"
             />
           </div>
         </div>
