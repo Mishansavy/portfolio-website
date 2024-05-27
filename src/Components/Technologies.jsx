@@ -1,8 +1,11 @@
-import { BiLogoPostgresql } from "react-icons/bi";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa6";
+import { FaPhp } from "react-icons/fa";
+import { FaWordpressSimple } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
+import { SiMysql } from "react-icons/si";
+import { FaCss3 } from "react-icons/fa";
+import { FaElementor } from "react-icons/fa6";
+
 import { animate, motion } from "framer-motion";
 
 const iconvariants = (duration) => ({
@@ -44,41 +47,60 @@ export const Technologies = () => {
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
-        {/* postgresql  */}
+        {/* php  */}
         <motion.div
           variants={iconvariants(3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-2 border-neutral-800 p-4"
         >
-          <BiLogoPostgresql className="text-7xl text-sky-700" />
+          <FaPhp className="text-7xl text-sky-700" />
         </motion.div>
-        {/* nodejs  */}
-        <motion.div
-          variants={iconvariants(2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-2 border-neutral-800 p-4"
-        >
-          <FaNodeJs className="text-7xl text-green-500" />
-        </motion.div>
-        {/* redis  */}
-        <motion.div
-          variants={iconvariants(6)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-2 border-neutral-800 p-4"
-        >
-          <DiRedis className="text-7xl text-red-700" />
-        </motion.div>
-        {/* nextjs  */}
+        {/* css  */}
         <motion.div
           variants={iconvariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-2 border-neutral-800 p-4"
         >
-          <TbBrandNextjs className="text-7xl " />
+          <FaCss3 className="text-7xl text-indigo-400" />
+        </motion.div>
+        {/* js  */}
+        <motion.div
+          variants={iconvariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-2 border-neutral-800 p-4"
+        >
+          <IoLogoJavascript className="text-7xl" />
+        </motion.div>
+
+        {/* mysql  */}
+        <motion.div
+          variants={iconvariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-2 border-neutral-800 p-4"
+        >
+          <SiMysql className="text-7xl text-violet-500 " />
+        </motion.div>
+        {/* WordPress  */}
+        <motion.div
+          variants={iconvariants(3.4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-2 border-neutral-800 p-4"
+        >
+          <FaWordpressSimple className="text-7xl text-sky-400" />
+        </motion.div>
+        {/* Elementor  */}
+        <motion.div
+          variants={iconvariants(7)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-2 border-neutral-800 p-4"
+        >
+          <FaElementor className="text-7xl text-pink-700" />
         </motion.div>
       </motion.div>
     </div>

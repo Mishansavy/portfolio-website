@@ -1,5 +1,5 @@
 import { ABOUT_TEXT } from "../constants";
-import aboutImg from "/assets/images/about.jpg";
+import aboutImg from "/assets/images/aboutsectionmishan.jpg";
 import { motion } from "framer-motion";
 export const About = () => {
   return (
@@ -30,7 +30,9 @@ export const About = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 maxw-xl py-6">{ABOUT_TEXT}</p>
+            <p className="my-2 maxw-xl py-6 lg:text-xl text-base text-justify">
+              {ABOUT_TEXT}
+            </p>
           </div>
         </motion.div>
       </div>
