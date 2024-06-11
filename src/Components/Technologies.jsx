@@ -5,6 +5,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { SiMysql } from "react-icons/si";
 import { FaCss3 } from "react-icons/fa";
 import { FaElementor } from "react-icons/fa6";
+import { DiDjango } from "react-icons/di";
 
 import { animate, motion } from "framer-motion";
 
@@ -46,6 +47,15 @@ export const Technologies = () => {
           className="rounded-2xl border-2 border-neutral-800 p-4"
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
+        </motion.div>
+        {/* django  */}
+        <motion.div
+          variants={iconvariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-2 border-neutral-800 p-4"
+        >
+          <DiDjango className="text-7xl text-neutral-300" />
         </motion.div>
         {/* php  */}
         <motion.div

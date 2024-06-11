@@ -14,16 +14,17 @@ export const EXPERIENCES = [
   {
     year: "2023 - 2024",
     role: "WordPress Developer",
-    company: "Mangosoftware Solutions",
-    description: `Led a team in developing and maintaining websites using WordPress. Collaborated with stakeholders to define project requirements and timelines.`,
+    company: "Mango Software Solutions",
+    description: `Led a team in developing and maintaining websites using WordPress. Collaborated with Clients to define project requirements and timelines.`,
     technologies: ["WordPress", "Elementor", "JavaScript", "CSS"],
   },
   {
     year: "2024 - Present",
     role: "Junior WordPress Developer",
     company: "QuintPros Technology Solutions",
-    description: `Designed and developed license Management System using Php. Worked closely with UI / UX Teams to get the desire Look and functionality in the websites. Maintaining Websites and attaining Meetings and 
-    Calls to fix the bugs and updates in the website.Implemented responsive designs and optimized frontend performance.`,
+    description: `Designed and developed license Management System using Php. 
+    Worked closely with UI / UX Teams to get the desire Look and functionality in the websites. Maintaining Websites and attending meetings and 
+    Calls to fix the bugs and updates in the website. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["CSS", "MySQL", "GSAP", "JavaScript"],
   },
 ];

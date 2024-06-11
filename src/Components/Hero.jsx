@@ -15,7 +15,7 @@ export const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-9 text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl"
             >
               Mishan Raj Shah
             </motion.h1>
@@ -23,7 +23,7 @@ export const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-700 bg-clip-text text-4xl font-bold tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-700 bg-clip-text text-3xl font-bold tracking-tight text-transparent"
             >
               Full Stack Developer
             </motion.span>
@@ -35,6 +35,16 @@ export const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
+            <motion.a
+              variants={container(1)}
+              initial="hidden"
+              animate="visible"
+              href="/assets/documents/MishanShah_Resume.pdf"
+              download="Mishan-shah-resume"
+              className="bg-transparent hover:bg-blue-800 text-blue-700 font-semibold hover:text-white py-2 px-4 mb-8 border border-blue-500 hover:border-transparent rounded"
+            >
+              Download CV
+            </motion.a>{" "}
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">

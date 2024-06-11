@@ -30,7 +30,7 @@ export const About = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 maxw-xl py-6 lg:text-xl text-base text-justify">
+            <p className="my-2 maxw-xl py-6 sm:text-sm lg:text-base text-justify">
               {ABOUT_TEXT}
             </p>
           </div>
